@@ -18,20 +18,3 @@ client.emotion.analyzeEmotion(data)
 	console.log(response);
 })
 .catch(console.error.bind(console));
-
-
-
-
-// const options = {
-// 	protocol: "https",
-// 	hostname: 'api.imgur.com',
-// 	path: '/3/image',
-//     headers: {
-//     	'Content-Type': 'image/jpg'
-//         'Authorization': 'Client-ID 01c88b0e4ce9b78'
-//     },
-//     type: 'POST',
-//     data: {
-//         'image': 'index.jpg'
-//     }
-// }
